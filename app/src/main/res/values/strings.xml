@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyChatApp</string>
+    <string name="welcome_text">Welcome to What\'s up clone!!!</string>
+    <string name="have_an_account">Already Have an Account</string>
+    <string name="need_an_account">Need a New Account?</string>
+    <string name="create_new_act">Create a New Account</string>
+</resources>
