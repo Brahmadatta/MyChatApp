@@ -64,7 +64,7 @@ class CreateAccountActivity : AppCompatActivity() {
                     userObject.put("display_name",displayName)
                     userObject.put("status","Hi There!!!")
                     userObject.put("image","default")
-                    userObject.put("thumbnail_image","default")
+                    userObject.put("thumb_image","default")
 
 
                     mDatabase!!.setValue(userObject).addOnCompleteListener {
