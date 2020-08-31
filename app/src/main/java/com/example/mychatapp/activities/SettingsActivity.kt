@@ -50,7 +50,7 @@ class SettingsActivity : AppCompatActivity() {
                 var displayName = dataSnapshot.child("display_name").value
                 var image = dataSnapshot.child("image").value.toString()
                 var status = dataSnapshot.child("status").value
-                var thumb_image = dataSnapshot.child("thumbnail_image").value
+                var thumb_image = dataSnapshot.child("thumb_image").value
 
                 settingDisplayName.text = displayName.toString()
                 settingsStatusText.text = status.toString()

@@ -65,6 +65,7 @@ class CreateAccountActivity : AppCompatActivity() {
                     userObject.put("status","Hi There!!!")
                     userObject.put("image","default")
                     userObject.put("thumb_image","default")
+                    userObject.put("uid",mDatabase!!.key.toString())
 
 
                     mDatabase!!.setValue(userObject).addOnCompleteListener {

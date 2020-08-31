@@ -6,18 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.LifecycleOwner
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.mychatapp.R
-import com.example.mychatapp.adapters.UsersAdapter
-import com.example.mychatapp.models.Users
-import com.firebase.ui.database.FirebaseRecyclerAdapter
-import com.firebase.ui.database.FirebaseRecyclerOptions
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
-import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.fragment_chats.*
 
 
 class ChatsFragment : Fragment() {
