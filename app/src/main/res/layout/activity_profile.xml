@@ -52,10 +52,11 @@
         android:layout_width="204dp"
         android:layout_height="52dp"
         android:layout_marginTop="40dp"
-        android:textCursorDrawable="@drawable/state_list_animator_z"
+        android:textCursorDrawable="@drawable/bg_input_cursor_2"
         android:background="@drawable/bt_shape"
         android:textColor="#f0f7f4"
         android:text="@string/send_message"
+        android:stateListAnimator="@drawable/state_list_animator_z"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profileStatus" />

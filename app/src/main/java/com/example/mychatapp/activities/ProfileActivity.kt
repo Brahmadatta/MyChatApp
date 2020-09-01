@@ -40,9 +40,9 @@ class ProfileActivity : AppCompatActivity() {
         mUserDatabase!!.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
 
-                var display_name = snapshot.child("display_name").toString()
-                var status = snapshot.child("status").toString()
-                var image = snapshot.child("image").toString()
+                var display_name = snapshot.child("display_name").value.toString()
+                var status = snapshot.child("status").value.toString()
+                var image = snapshot.child("image").value.toString()
 
                 profileName.text = display_name
                 profileStatus.text = status
